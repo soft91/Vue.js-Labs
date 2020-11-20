@@ -2,5 +2,3 @@
 
 * [Vue.js Lab's](README.md)
 
-## Vue.js Issue
-
