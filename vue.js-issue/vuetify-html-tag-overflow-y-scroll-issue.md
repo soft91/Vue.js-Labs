@@ -20,10 +20,6 @@ Vuetify Third Party Libaray를 사용하는 도중 정말 황당한 경험을 �
 
 ![html &#xD0DC;&#xADF8;&#xC5D0; overflow-y&#xAC00; &#xBC15;&#xD600;&#xC788;&#xC74C; &#x3161;&#x3161;;;](https://gblobscdn.gitbook.com/assets%2F-MLp76L_rPuN5w4LYg0O%2F-MMVl1lnWHe9g-ZbFR25%2F-MMVn5iJh_MO1sga8OpD%2Fimage.png?alt=media&token=e37615de-f3f3-44a5-a671-3ddf254cdb49)
 
-overflow-y: scroll;이 적용되어 있었음.Enter a caption for this image \(optional\)
-
-‌
-
 Stackoverflow에서 간신히 찾은 결과였고 이 문제를 해결하기 위해서는 직접 Main이 되는 HTML\(예: index.html\)에 HTML Style을 적용 시키는 방법 이였다.
 
 ‌
@@ -33,8 +29,6 @@ Stackoverflow에서 간신히 찾은 결과였고 이 문제를 해결하기 위
 ‌
 
 **주의 해야 할 점은 'overflow-y: auto'로 변경해주는 방법 대신에 꼭 !important를 사용하여 강제적으로 적용을 시켜야만 한다.**
-
-exit: Ctrl+↩
 
 ```text
 html {
